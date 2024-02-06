@@ -20,3 +20,16 @@
 ### -2) GPT-4
 
 > GPT는 대표적인 LLM 모델로 YOLO에서 나온 Inference 결과를 해석하고, 고객에게 브리핑을 할 때 가장 정확도가 높다고 판단되어 사용했습니다.
+
+
+## 1. Basic YOLO
+> YOLO는 pre-trained model로 별다른 학습 없이도 바로 사용할 수 있는 모델입니다.
+> 하지만 기본 모델은 저희의 목적과 조금 달랐기 때문에, fine tuning을 해 주기로 했습니다.
+
+
+## 2. YOLO fine tuning
+> 
+
+## 3. YOLO + GPT
+
+
