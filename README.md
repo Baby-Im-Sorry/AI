@@ -32,6 +32,8 @@
 
 ## 1. 모델 학습 과정
 
+<br/>
+
 > YOLO는 pre-trained model로 학습을 시키지 않고도 사용할 수 있는 모델입니다.
 >
 > 하지만 저희의 목적에 맞게 쓰기 위해서는 fine tuning 과정을 통해 모델의 출력값을 바꾸어줘야합니다.
@@ -43,6 +45,8 @@
 >>   5. yaml파일 작성 및 trn, val, tst split
 >>   6. YOLO fine tuning
 >
+
+<br/><br/>
 
 ## 2. YOLO inference값 전달 및 자연어 생성
 
