@@ -38,7 +38,7 @@
 >
 > 그러나 이번 프로젝트에서는 Fine tuning을 통해 서비스의 목적에 맞게 출력값을 바꿔줘야 합니다.
 >
->>   1. AI-hub를 통해 학습에 필요한 데이터(무인점포 CCTV) 구축 / 데이터는 Mp4, XML형태
+>>   1. AI-hub를 통해 학습에 필요한 Mp4, XML형태의 데이터(무인점포 CCTV) 구축
 >>   2. 기존의 XML파일을 JSON 형태로 변환
 >>   3. Mp4파일을 JSON을 참고하여 JPG형태로 변환
 >>   4. JSON을 YOLO형식에 맞게 정규화 및 라벨링 후, txt로 변환
@@ -50,4 +50,6 @@
 
 ## 2. 모델 예측 및 자연어 생성
 
-튜닝된 모델은 Object detection후 
+> Fine tuning된 YOLO 모델은 실시간 영상에서 Object detection후 그 결과값을 GPT-4 에게 전달합니다.
+>
+> 그 후 GPT-4가 고객에게 브리핑할 자연어를 생성합니다.
