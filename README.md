@@ -1,8 +1,9 @@
 방구석 브리핑_AI
 ========================
 
-## 모델 선정 배경
-### YOLO
+## Model Selection Background
+
+### YOLOv8n
 
 The reason for choosing YOLOv8n as the Vision AI model can be summarized into three points.
 
